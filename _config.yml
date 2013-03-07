@@ -2,3 +2,4 @@
 safe: false
 auto: true
 destination: _site
+source: src
