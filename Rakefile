@@ -1,5 +1,9 @@
+require 'yaml'
+
 ROOT_DIR = File.dirname(__FILE__)
-DEST_DIR = File.join(ROOT_DIR, "_site")
+CONFIG_FILE = File.join(ROOT_DIR, '_config.yml')
+CONFIG = YAML.load_file(CONFIG_FILE)
+DEST_DIR = File.join(ROOT_DIR, CONFIG['destination'] || '_site')
 
 
 desc "Deploy the compiled version of the site using git."
