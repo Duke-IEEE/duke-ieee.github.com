@@ -1,3 +1,8 @@
+---
+---
+
+{% include css/normalize.css %}
+
 /*
  * HTML5 Boilerplate
  *
@@ -93,8 +98,8 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
-
+{% include css/foundation.css %}
+{{ site.time }}
 
 
 
