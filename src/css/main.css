@@ -1,8 +1,6 @@
 ---
 ---
 
-{% include css/normalize.css %}
-{% include css/html5bp.css %}
+{% include css/vendor/normalize.css %}
+{% include css/vendor/foundation.css %}
 {% include css/chromeframe.css %}
-{% include css/foundation.css %}
-{% include css/helpers.css %}
